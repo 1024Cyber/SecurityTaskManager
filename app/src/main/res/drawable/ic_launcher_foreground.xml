@@ -1,0 +1,13 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- shield outline -->
+    <path
+        android:strokeColor="#00FF88" android:strokeWidth="4" android:fillColor="#00000000"
+        android:pathData="M54,28 L78,37 L78,56 C78,69 68,78 54,83 C40,78 30,69 30,56 L30,37 Z" />
+    <!-- activity / process graph line -->
+    <path
+        android:strokeColor="#00CFFF" android:strokeWidth="4"
+        android:strokeLineCap="round" android:strokeLineJoin="round" android:fillColor="#00000000"
+        android:pathData="M38,58 L46,58 L50,48 L56,66 L61,54 L70,54" />
+</vector>
