@@ -38,10 +38,7 @@ CI (`.github/workflows/build.yml`) runs the unit tests, builds debug + release A
 
 Locally: open in Android Studio, or `./gradlew testDebugUnitTest assembleDebug` (JDK 17, Android SDK 34).
 
-## Before you publish
-Edit `app/src/main/java/com/securitytaskmanager/ui/screens/AboutInfo.kt` with your name and links.
 
 ## Notes and limits
 - Needs `ps` with `-o NAME` support (toybox, Android 8+). Without it, names fall back to the 15-character kernel name.
 - Root daemons such as `init` restart their children, so killing a native service can bring it right back; STM tells you when that happens.
-- Use only on devices you own or are authorised to test.
